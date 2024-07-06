@@ -1,8 +1,8 @@
 import React from 'react'
 import Login from './components/Login.jsx'
 import Signup from './components/Signup.jsx'
-import Home from './components/Home.jsx'
-import Dashboaard from './components/Dashboard.jsx'
+import Income from './components/Income.jsx'
+import Dashboard from './components/Dashboard.jsx'
 import {Route,Routes} from 'react-router-dom'
 const App = () => {
   return (
@@ -11,8 +11,8 @@ const App = () => {
     <Routes>
       <Route path ="/Signup" element={ <Signup />} />
       <Route path ="/login" element={ <Login />} />
-      {/* <Route path ="/home" element={ <Home />} /> */}
-      {/* <Route path ="/dashboard" element={ <Dashboaard />} /> */}
+      <Route path ="/Income" element={ <Income />} />
+      <Route path ="/dashboard" element={ <Dashboard />} />
    
     
      </Routes>
